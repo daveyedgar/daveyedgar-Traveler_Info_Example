@@ -1,10 +1,30 @@
-.slide-control{
-  fill: yellow;
-  enable-background: new 0 0 483.001 483.001;
-  font-size: 2rem;
+.svg-container { 
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	padding-bottom: 100%; 
+	vertical-align: middle; 
+	overflow: hidden; 
+}
 
-  &--left{
-  transform: rotate(180deg);
+.slide-control-left, .slide-control-right{
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
   fill: yellow;
-  }
+  // font-size: 2rem;
+	width: 50%;
+	height: 50%;
+
+}
+
+.slide-control-left{
+  transform: rotate(180deg);
+}
+
+.carousel-item{
+	min-height: 100vh;
+  /* mobile viewport bug fix */
+  min-height: -webkit-fill-available;
 }
