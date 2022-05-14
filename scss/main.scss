@@ -1,0 +1,10 @@
+.slide-control{
+  fill: yellow;
+  enable-background: new 0 0 483.001 483.001;
+  font-size: 2rem;
+
+  &--left{
+  transform: rotate(180deg);
+  fill: yellow;
+  }
+}
