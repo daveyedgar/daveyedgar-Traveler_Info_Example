@@ -27,4 +27,8 @@
   min-height: -webkit-fill-available;
 }
 
+.rounded-classic {
+  border-radius: 10%;
+}
+
 /*# sourceMappingURL=main.css.map */
